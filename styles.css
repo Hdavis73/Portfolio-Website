@@ -63,6 +63,7 @@ body::before {
 
 a {
     text-decoration: none;
+    color: var(--blue-dark)
 }
 
 h1,h2 {
@@ -816,6 +817,30 @@ header.active .nav-toggler span::after {
     padding: 10 15px;
 }
 
+ .contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+} 
+
+.contact-info {
+    margin-left: 7%;
+    position: absolute;
+    bottom: 0;
+    /* border: 2px var(--main-color) double; */
+    /* max-width: 400px; */
+}
+
+.contact-info-item {
+    display: flex;
+}
+
+.social-links {
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
 .contact-form .input-group {
     width: 100%;
     margin-bottom: 30px;
@@ -879,7 +904,16 @@ header.active .nav-toggler span::after {
 
 .contact-info-item .social-links a:hover {
     color: var(--white);
+    margin-right: 5px;
     background-color: var(--main-color);
+}
+
+.email{
+    text-decoration: underline;
+}
+
+.email:hover {
+    color: var(--main-color)
 }
 
 
@@ -917,6 +951,11 @@ header.active .nav-toggler span::after {
 
     .portfolio-item {
         width: calc(50% - 30px);
+    }
+
+    .contact-info {
+        justify-content: center;
+        margin: 0;
     }
 }
 
