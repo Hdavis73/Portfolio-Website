@@ -510,9 +510,9 @@ header.active .nav-toggler span::after {
 }
 
 .home-img .img-box {
-    max-width: 350px;
-    height:375px;
-    width:100%;
+    max-width: 300px;
+    height:400px;
+    /* width:75%; */
     background-color: var(--white-alpha-25);
     border-radius: 50%;
     border: 8px solid var(--white-alpha-25);
@@ -755,7 +755,7 @@ header.active .nav-toggler span::after {
     border: 1px solid var(--white-alpha-40);
     backdrop-filter: var(--backdrop-filter-blur);
     opacity: 0;
-    transform: scale(0.9)
+    transform: scale(0.9);
 }
 
 .portfolio-popup.open .pp-content {
@@ -1009,6 +1009,10 @@ header.active .nav-toggler span::after {
 
     .pp-header h2 {
         font-size: 1.3rem;
+    }
+
+    .pp-content {
+        background-color: rgba(255, 255, 255, 0.653);
     }
 }
 
