@@ -510,8 +510,8 @@ header.active .nav-toggler span::after {
 }
 
 .home-img .img-box {
-    max-width: 250px;
-    height:250px;
+    max-width: 350px;
+    height:375px;
     width:100%;
     background-color: var(--white-alpha-25);
     border-radius: 50%;
@@ -546,6 +546,10 @@ header.active .nav-toggler span::after {
 
 .about-img .img-box img {
     width:100%;
+}
+
+.about-text {
+    margin: auto;
 }
 
 .about-text h3 {
