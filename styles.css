@@ -514,14 +514,14 @@ header.active .nav-toggler span::after {
     height:400px;
     /* width:75%; */
     background-color: var(--white-alpha-25);
-    border-radius: 50%;
+    border-radius: 30px;
     border: 8px solid var(--white-alpha-25);
     margin: auto;
 }
 
 .home-img .img-box img {
     width: 100%;
-    border-radius: 50%;
+    border-radius: 30px;
 
 }
 
@@ -943,6 +943,7 @@ header.active .nav-toggler span::after {
 
     .home-img .img-box {
         max-width: 300px;
+        max-height: 350px;
     }
 
     .home-text {
@@ -997,6 +998,11 @@ header.active .nav-toggler span::after {
     .section-title h2,
     .header .nav-inner ul li a {
         font-size: 2.5rem;
+    }
+
+    .home-img .img-box {
+        max-width: 275px;
+        max-height: 325px;
     }
 
     .home-text h1 {
