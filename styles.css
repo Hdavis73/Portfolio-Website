@@ -538,7 +538,7 @@ header.active .nav-toggler span::after {
 
 .about-img .img-box {
     background-color: var(--white-alpha-25);
-    max-width: 380px;
+    max-width: 400px;
     height: 300px;
     border: 1px solid var(--white-alpha-40);
     margin:auto;
