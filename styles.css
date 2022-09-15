@@ -573,6 +573,11 @@ header.active .nav-toggler span::after {
     border-radius: 20px;
 }
 
+.skill-item.less {
+    background-color: #ffa60025;
+    border: 1px solid #ffa60037;
+}
+
 .about-tabs .tab-item {
     padding: 2px 0;
     background-color: transparent;
